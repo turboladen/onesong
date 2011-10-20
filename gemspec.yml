@@ -1,0 +1,10 @@
+name: onesong
+summary: "TODO: Summary"
+description: "TODO: Description"
+license: MIT
+authors: sloveless
+homepage: http://rubygems.org/gems/onesong
+
+development_dependencies:
+  ore-tasks: ~> 0.4
+  rspec: ~> 2.4

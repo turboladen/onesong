@@ -1,0 +1,40 @@
+= onesong
+
+http://github.com/turboladen/onesong
+
+== DESCRIPTION
+
+FIX (briefly describe your package)
+
+== FEATURES/PROBLEMS
+
+Features:
+
+* FIX (list your features)
+
+Problems:
+
+* FIX (list your problems)
+
+== SYNOPSIS
+
+FIX (explain how to use, etc)
+
+== REQUIREMENTS
+
+* Ruby 1.9.2
+* RubyGems:
+  * FIX (list of external gem requirements)
+
+== INSTALL
+
+  $ gem install onesong
+
+== DEVELOPERS
+
+After checking out the source, run:
+
+  $ bundle install
+
+This task will install any missing dependencies for you.
+

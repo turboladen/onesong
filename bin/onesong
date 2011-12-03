@@ -1,3 +1,14 @@
-#!/usr/bin/env ruby -w
+#!/usr/bin/env ruby
+require 'thor'
+require_relative '../lib/onesong/searcher'
 
-abort "you need to write me"
+class OnesongCommand < Thor
+  desc "list_dupes ITUNES_MUSIC_PATH", "Lists duplicate entries in your iTunes Music dir"
+  def list_dupes(itunes_music_path=Dir.home + "/Music/iTunes/Music")
+    puts "Libarary: #{itunes_music_path }"
+    searcher = Onesong::Searcher.new(itunes_music_path)
+    searcher.duplicate_files
+  end
+end
+
+OnesongCommand.start

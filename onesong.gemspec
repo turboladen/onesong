@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
     %w(.gemtest Gemfile onesong.gemspec Rakefile)
   s.test_files = Dir.glob("{features,spec}/**/*")
   s.require_paths = ["lib"]
+  
+  s.add_dependency("thor", "~> 0.14.6")
 
   s.add_development_dependency("bundler", [">= 0"])
   s.add_development_dependency("code_statistics", ["~> 0.2.13"])
